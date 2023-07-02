@@ -10,7 +10,7 @@
 Get all items
 
 ```http
-  GET /api/total_items?start_date=2022-05-1&end_date=2023-5-10&department=Marketting
+   End point : /api/total_items?start_date=2022-05-1&end_date=2023-5-10&department=Marketting
   
 ```
 
@@ -88,6 +88,8 @@ Write following commands in the terminal-
 
 ### To start the nodeJs server
 ```bash
+  npm init
+  npm i express body-parser moongose
   node app.js
 
 ```
